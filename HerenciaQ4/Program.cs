@@ -4,12 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HerenciaQ4
-{
-    internal class Program
-    {
-        static void Main(string[] args{
+using HerenciaQ4;
 
-        }
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        Vertebrado vertebrado = new Vertebrado();
+        vertebrado.Nombre = "Tiburon";
+        vertebrado.Imprimir();
     }
 }
